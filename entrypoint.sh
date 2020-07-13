@@ -50,5 +50,5 @@ aws ${PROFILE_OPTION} s3 cp ${S3_URI}/config.yml /etc/alertmanager/config.yml
 
 echo "INFO: Starting alertmanager..."
 exec /bin/alertmanager \
-  -config.file=/etc/alertmanager/config.yml \
-  -storage.path=/alertmanager
+  --config.file=/etc/alertmanager/config.yml \
+  --storage.path=/alertmanager
