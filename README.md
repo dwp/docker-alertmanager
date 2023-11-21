@@ -1,3 +1,5 @@
+# DO NOT USE THIS REPO - MIGRATED TO GITLAB
+
 # docker-alertmanager
 
 ## Rebuild of Alertmanager Docker image for DataWorks
